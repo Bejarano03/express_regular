@@ -1,0 +1,11 @@
+{
+  "name": "implement-regular-expressions",
+  "version": "1.0.0",
+  "description": "application will handle using regular expressions in route paths to handle multiple URL variations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
