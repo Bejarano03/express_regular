@@ -6,6 +6,14 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+app.get('/user/:id', (req, res) => {
+  res.send('user ' + req.params.id)
+})
+
+app.get('*', (req, res) => {
+  res.send('404 Page Not Found')
+})
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
